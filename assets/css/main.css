@@ -4,29 +4,7 @@
 .collapse-content .fa.fa-share-alt:hover {
   color: #0d47a1 !important;
 }/*
- * Evento -  Event html  Template
- * Build Date: jan 2018
- * Author: colorlib
- * Copyright (C) 2018 colorlib
- */
-/* ------------------------------------- */
-/* TABLE OF CONTENTS
-/* -------------------------------------
-    . GENERAL
-    . Header
-    . Footer
-    . BUTTONS
-    . ICON BOXES
-    . PROJECTS SECTION (PORTFOLIO)
-    . BLOG  SECTION
-    . COUNTER SECTION
-    . Testimonial SECTION
-	. Contact Section
-	.PROGRESSBAR
-	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
-	------------------------------------- */
-/*  ----------------------------------------------------
-1. GENERAL
+
 -------------------------------------------------------- */
 /* ----------------IMPORT GOOGLE FONTS ------------------- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");

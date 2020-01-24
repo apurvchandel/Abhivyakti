@@ -20,7 +20,7 @@
   =============================================== */
 'use strict';
 $(window).load(function() {
-    $('.loader').delay(200).fadeOut('slow');
+    $('.loader').delay(500).fadeOut('slow');
 });
 
 
