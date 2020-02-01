@@ -7,14 +7,14 @@
     <meta name="author" content="Apurv Chandel">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Contact || Cultural Fest of IIIT Nagpur</title>
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/et-line.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/et-line.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/ionicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/owl.theme.default.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
+    <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
 </head>
 <body>
 <div class="loader">
@@ -25,7 +25,7 @@
 <header class="header navbar fixed-top navbar-expand-md">
     <div class="container">
         <a class="navbar-brand logo" href="#">
-            <img src="logo.png" alt="Abhivyakti"/>
+            <img src="{% static 'logo.png' %}" alt="Abhivyakti"/>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="lnr lnr-text-align-right"></span>
@@ -33,13 +33,13 @@
         <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
             <ul class=" nav navbar-nav menu">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link active" href="{% static 'index.html' %}">Home</a>
                 </li>
                               <li class="nav-item">
-                    <a class="nav-link " href="events.html">Events</a>
+                    <a class="nav-link " href="{% static 'events.html' %}">Events</a>
                 </li>
                                 <li class="nav-item">
-                    <a class="nav-link " href="contact.html">Contact</a>
+                    <a class="nav-link " href="{% static 'contact.html' %}">Contact</a>
                 </li>
             </ul>
         </div>
@@ -48,7 +48,7 @@
 <!--header end here-->
 
 <!--page title section-->
-<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="assets/img/bg/bg-img.png">
+<section class="inner_cover parallax-window" data-parallax="scroll" data-image-src="{ % static 'assets/img/bg/bg-img.png' %}">
     <div class="overlay_dark"></div>
     <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -68,7 +68,7 @@
 <!--contact section -->
 <section class="pt100 pb100">
     <div class="container">
-        <img src="logo.png" alt="Abhivyakti">
+        <img src="{% static 'logo.png' %}" alt="Abhivyakti">
         <div class="row justify-content-center mt100">
             <div class="col-md-6 col-12">
                 <div class="contact_info">
@@ -258,19 +258,19 @@ Team Abhivyakti | Copyright &copy;<script>document.write(new Date().getFullYear(
             <div class="col-12 col-md-6 ">
                 <ul class="footer_menu">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="{% static 'indec.html' %}">Home</a>
                     </li>
+                    <!-- <li>
+                        <a href="{% static 'speaker.html">Speakers</a>
+                    </li> -->
                     <li>
-                        <a href="#Speaker">Speakers</a>
+                        <a href="{% static 'events.html' %}">Events</a>
                     </li>
-                    <li>
-                        <a href="events.html">Events</a>
-                    </li>
-                    <li>
+                    <!-- <li>
                         <a href="#">News</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="{% static 'conatct.html' %}">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -280,24 +280,24 @@ Team Abhivyakti | Copyright &copy;<script>document.write(new Date().getFullYear(
 <!--footer end -->
 
 <!-- jquery -->
-<script src="assets/js/jquery.min.js"></script>
+<script src="{% static 'assets/js/jquery.min.js' %}"></script>
 <!-- bootstrap -->
-<script src="assets/js/popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
+<script src="{% static 'assets/js/popper.js' %}"></script>
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/waypoints.min.js' %}"></script>
 <!--slick carousel -->
-<script src="assets/js/owl.carousel.min.js"></script>
+<script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
 <!--parallax -->
-<script src="assets/js/parallax.min.js"></script>
+<script src="{% static 'assets/js/parallax.min.js' %}"></script>
 <!--Counter up -->
-<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="{% static 'assets/js/jquery.counterup.min.js' %}"></script>
 <!--Counter down -->
-<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="{% static 'assets/js/jquery.countdown.min.js' %}"></script>
 <!-- WOW JS -->
-<script src="assets/js/wow.min.js"></script>
+<script src="{% static 'assets/js/wow.min.js' %}"></script>
 <!--map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuahgsm_qfH1F3iywCKzZNMdgsCfnjuUA"></script>
 <!-- Custom js -->
-<script src="assets/js/main.js"></script>
+<script src="{% static 'assets/js/main.js' %}"></script>
 </body>
 </html>
